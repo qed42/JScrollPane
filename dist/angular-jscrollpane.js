@@ -36,7 +36,7 @@
             }
             fn = function() {
               return jQuery('#' + $attrs.id).jScrollPane(config);
-            };c
+            };
             if ($attrs.scrollTimeout) {
               return $timeout(fn, $scope.$eval($attrs.scrollTimeout));
             } else {
